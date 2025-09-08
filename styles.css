@@ -14,21 +14,29 @@ span {
 }
 /* TODO 2: Class Selectors */
 /* Style usernames with class "username" to have color: #1877f2 and font-weight: bold */
-
-
+.username {
+    color: #1877f2;
+    font-weight: bold;
+}
 /* Style posts with class "blue-text" to have color: #4267B2 */
-
-
+.blue-text {
+    color: #4267B2;
+}
 /* Style posts with class "red-text" to have color: #e74c3c */
-
-
+.red-text {
+    color: #e74c3c;
+}
 /* Style highlighted posts with class "highlight" to have background-color: #f0f2f5 and padding: 15px */
-
-
+.highlight {
+    background-color: #f0f2f5;
+    padding: 15px;
+}
 /* TODO 3: ID Selectors */
 /* Style the featured user with id "featured-user" to have color: #42b883 and font-size: 18px */
-
-
+#featured-user {
+    color: #42b883;
+    font-size: 18px;
+}
 /* TODO 4: Specificity Battle */
 /* Create multiple rules for the bio with id "specificity-test" and class "winner" */
 /* Rule 1: Use element selector p to make color: #333 */
