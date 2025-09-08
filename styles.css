@@ -3,11 +3,15 @@
 
 /* TODO 1: Basic Element Selectors */
 /* Style all paragraphs with color: #333 and font-size: 16px */
-
-
+p {
+    color: #333;
+    font-size: 16px;
+}
 /* Style all span elements with color: #888 and font-size: 14px */
-
-
+span {
+    color: #888;
+    font-size: 14px;
+}
 /* TODO 2: Class Selectors */
 /* Style usernames with class "username" to have color: #1877f2 and font-weight: bold */
 
